@@ -1,0 +1,19 @@
+2018-09-29
+
+These are the numbers from the Dayton Daily News article
+This is the link https://www.daytondailynews.com/news/ohio-sees-increase-abortions-report-says/nctwyeXcLzsZkDGm3X6wdN/
+
+see ddn.csv
+
+numbers can be found here from Ohio Department of Health
+https://www.odh.ohio.gov/-/media/ODH/ASSETS/Files/health-statistics---vital-stats/Induced-Abortions-in-Ohio-2017.pdf?la=en
+
+2017,20893
+2016,20672
+2015,20976
+2014,21186
+2013,23216
+2007,30859
+
+population estimates can be found on the census beauru web site here:
+https://www.census.gov/data/datasets/2017/demo/popest/nation-total.html#par_textimage_401631162
