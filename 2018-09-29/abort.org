@@ -4,13 +4,16 @@
 #+DATE: 2018-09-29
 
 The Dayton Daily News published an [[https://www.daytondailynews.com/news/ohio-sees-increase-abortions-report-says/nctwyeXcLzsZkDGm3X6wdN/][article]] discussing the trend of abortions in Ohio. The linked 
-article does not include the table from the print version.
+article does not include the table from the print version, so I took a picture of it and put it
+here.
 
 # determine size of image using imagemagick using identify
 # b-roll/2018-09-29/img$ identify ddn_shot.jpg
 # ddn_shot.jpg JPEG 1306x1797 1306x1797+0+0 8-bit sRGB 205KB 0.000u 0:00.000
 # resize the image
 # b-roll/2018-09-29/img$ convert ddn_shot.jpg -resize 500x500 ddn_shot_resize.jpg
+# remove EXIF data from jpeg using imagemagick
+# b-roll/2018-09-29/img$ mogrify -strip ddn_shot.jpg
 #+ATTR_ORG: :width 100
 #+ATTR_HTML: width="100px"
 [[img/ddn_shot.jpg]]
