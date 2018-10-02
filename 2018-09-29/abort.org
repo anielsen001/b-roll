@@ -5,7 +5,7 @@
 
 The Dayton Daily News published an [[https://www.daytondailynews.com/news/ohio-sees-increase-abortions-report-says/nctwyeXcLzsZkDGm3X6wdN/][article]] discussing the trend of abortions in Ohio. The linked 
 article does not have the same headlines nor include the table from the print version, so I took a picture of it and put it
-here. Crucially the headline says
+here. Crucially the subheading says:
 #+BEGIN_QUOTE
 Numbers buck 10-year trend showing fewer procedures in the state.
 #+END_QUOTE
