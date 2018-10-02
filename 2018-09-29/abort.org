@@ -39,8 +39,9 @@ might actually be a decrease if the change in population size is accounted for. 
 
 [[img/total_per_100k.png]]
 
-Plotted this way, it appears the increase from 2016 to 2107 is only 0.3%, not the 1% 
-mentioned in the article. 
+Plotted this way, it appears the Total number increase from 2016 to 2107 is only 0.3%, not the 1% 
+mentioned in the article. Looking at just the Ohio resident numbers, the result is even less
+exciting, showing almost no change.
 
 
 
