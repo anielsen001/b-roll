@@ -4,8 +4,11 @@
 #+DATE: 2018-09-29
 
 The Dayton Daily News published an [[https://www.daytondailynews.com/news/ohio-sees-increase-abortions-report-says/nctwyeXcLzsZkDGm3X6wdN/][article]] discussing the trend of abortions in Ohio. The linked 
-article does not include the table from the print version, so I took a picture of it and put it
-here.
+article does not have the same headlines nor include the table from the print version, so I took a picture of it and put it
+here. Crucially the headline says
+#+BEGIN_QUOTE
+Numbers buck 10-year trend showing fewer procedures in the state.
+#+END_QUOTE
 
 # determine size of image using imagemagick using identify
 # b-roll/2018-09-29/img$ identify ddn_shot.jpg
@@ -16,7 +19,7 @@ here.
 # b-roll/2018-09-29/img$ mogrify -strip ddn_shot.jpg
 #+ATTR_ORG: :width 100
 #+ATTR_HTML: width="100px"
-[[img/ddn_shot.jpg]]
+[[img/headline_resize.jpg]]
 
 
 I found
