@@ -3,14 +3,22 @@
 #+EMAIL: @anielsen001
 #+DATE: 2018-09-29
 
-The Dayton Daily News published an [[https://www.daytondailynews.com/news/ohio-sees-increase-abortions-report-says/nctwyeXcLzsZkDGm3X6wdN/][article]] discussing the trend of abortions in Ohio. I found
+The Dayton Daily News published an [[https://www.daytondailynews.com/news/ohio-sees-increase-abortions-report-says/nctwyeXcLzsZkDGm3X6wdN/][article]] discussing the trend of abortions in Ohio. The linked 
+article does not include the table from the print version.
+
+file://img/ddn_shot.img
+
+
+I found
 the article hard to follow because only raw numbers were published and the only context 
 referred to political considerations as opposed to getting into the details of what's 
-really going on. The numbers in the DDN article actually came from this [[https://www.odh.ohio.gov/-/media/ODH/ASSETS/Files/health-statistics---vital-stats/Induced-Abortions-in-Ohio-2017.pdf?la=en
-][Ohio Department of Health report]] 
+really going on. The numbers in the DDN article actually came from this [[https://www.odh.ohio.gov/-/media/ODH/ASSETS/Files/health-statistics---vital-stats/Induced-Abortions-in-Ohio-2017.pdf?la=en][Ohio Department of Health report]],
+which includes more detailed information over a longer period of time. 
 
-These are the numbers from the Dayton Daily News article
-This is the link https://www.daytondailynews.com/news/ohio-sees-increase-abortions-report-says/nctwyeXcLzsZkDGm3X6wdN/
+What was missing in particular from the DDN article was any discussion of the size of Ohio's 
+overall poplulation relative to the report abortion numbers. For example, the report increase
+might actually be a decrease if the change in population size is accounted for.
+
 
 see ddn.csv
 
