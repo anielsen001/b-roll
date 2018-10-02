@@ -6,7 +6,7 @@
 The Dayton Daily News published an [[https://www.daytondailynews.com/news/ohio-sees-increase-abortions-report-says/nctwyeXcLzsZkDGm3X6wdN/][article]] discussing the trend of abortions in Ohio. The linked 
 article does not include the table from the print version.
 
-file://img/ddn_shot.img
+[[./img/ddn_shot.img]]
 
 
 I found
