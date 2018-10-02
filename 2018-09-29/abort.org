@@ -21,29 +21,26 @@ Numbers buck 10-year trend showing fewer procedures in the state.
 #+ATTR_HTML: width="100px"
 [[img/headline_resize.jpg]]
 
+The numbers presented don't show the full 10 year trend referenced in the article. 
+The numbers in the DDN article actually came from this [[https://www.odh.ohio.gov/-/media/ODH/ASSETS/Files/health-statistics---vital-stats/Induced-Abortions-in-Ohio-2017.pdf?la=en][Ohio Department of Health report]],
+which includes more detailed information over a longer period of time. So I plotted back
+to 2006. There is clearly a dip and rise again from 2010-2012. The size of this
+exceeds the 2017 rise substantially, making one wonder what trend the author
+of the DDN article sees that is being bucked. In addition to totals, the report
+also breaks out numbers for Ohio residents which I also included.
 
-I found
-the article hard to follow because only raw numbers were published and the only context 
-referred to political considerations as opposed to getting into the details of what's 
-really going on. The numbers in the DDN article actually came from this [[https://www.odh.ohio.gov/-/media/ODH/ASSETS/Files/health-statistics---vital-stats/Induced-Abortions-in-Ohio-2017.pdf?la=en][Ohio Department of Health report]],
-which includes more detailed information over a longer period of time. 
+[[img/total.png]]
 
-What was missing in particular from the DDN article was any discussion of the size of Ohio's 
+
+What was also missing in particular from the DDN article was any discussion of the size of Ohio's 
 overall poplulation relative to the report abortion numbers. For example, the report increase
-might actually be a decrease if the change in population size is accounted for.
+might actually be a decrease if the change in population size is accounted for. I obtained 
+[[https://www.census.gov/data/datasets/2017/demo/popest/nation-total.html#par_textimage_401631162][numbers from the US Census]] and computed totals per 100,000 people.
+
+[[img/total_per_100k.png]]
+
+Plotted this way, it appears the increase from 2016 to 2107 is only 0.3%, not the 1% 
+mentioned in the article. 
 
 
-see ddn.csv
 
-numbers can be found here from Ohio Department of Health
-https://www.odh.ohio.gov/-/media/ODH/ASSETS/Files/health-statistics---vital-stats/Induced-Abortions-in-Ohio-2017.pdf?la=en
-
-2017,20893
-2016,20672
-2015,20976
-2014,21186
-2013,23216
-2007,30859
-
-population estimates can be found on the census beauru web site here:
-https://www.census.gov/data/datasets/2017/demo/popest/nation-total.html#par_textimage_401631162

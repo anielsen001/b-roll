@@ -39,6 +39,13 @@ abt['RESIDENT']=abt['RESIDENT'].astype(float)
 abt = abt.sort_values(by='YEAR')
 abt['TOTDIFF'] = abt['TOTAL'].diff() 
 
+# plot the totals
+plt.figure()
+sns.lineplot(data=abt[['TOTAL','RESIDENT']], markers = True)
+plt.xlabel('Year')
+plt.ylabel('Total induced abortions')
+plt.title('Total induced abortions in Ohio')
+
 # join the two dataframes together
 ohjoin = ohpop.join(abt)
 ohjoin['Total abortions'] = ohjoin['TOTAL']/ohjoin['OH population']
