@@ -1,0 +1,47 @@
+#+TITLE: Ohio Abortion Trends
+#+AUTHOR: Aaron Nielsen
+#+EMAIL: @anielsen001
+#+DATE: 2018-09-29
+
+The Dayton Daily News published an [[https://www.daytondailynews.com/news/ohio-sees-increase-abortions-report-says/nctwyeXcLzsZkDGm3X6wdN/][article]] discussing the trend of abortions in Ohio. The linked 
+article does not have the same headlines nor include the table from the print version, so I took a picture of it and put it
+here. Crucially the subheading says:
+#+BEGIN_QUOTE
+Numbers buck 10-year trend showing fewer procedures in the state.
+#+END_QUOTE
+
+# determine size of image using imagemagick using identify
+# b-roll/2018-09-29/img$ identify ddn_shot.jpg
+# ddn_shot.jpg JPEG 1306x1797 1306x1797+0+0 8-bit sRGB 205KB 0.000u 0:00.000
+# resize the image
+# b-roll/2018-09-29/img$ convert ddn_shot.jpg -resize 500x500 ddn_shot_resize.jpg
+# remove EXIF data from jpeg using imagemagick
+# b-roll/2018-09-29/img$ mogrify -strip ddn_shot.jpg
+#+ATTR_ORG: :width 100
+#+ATTR_HTML: width="100px"
+[[img/headline_resize.jpg]]
+
+The numbers presented don't show the full 10 year trend referenced in the article. 
+The numbers in the DDN article actually came from this [[https://www.odh.ohio.gov/-/media/ODH/ASSETS/Files/health-statistics---vital-stats/Induced-Abortions-in-Ohio-2017.pdf?la=en][Ohio Department of Health report]],
+which includes more detailed information over a longer period of time. So I plotted back
+to 2006. There is clearly a dip and rise again from 2010-2012. The size of this
+exceeds the 2017 rise substantially, making one wonder what trend the author
+of the DDN article sees that is being bucked. In addition to totals, the report
+also breaks out numbers for Ohio residents which I also included.
+
+[[img/total.png]]
+
+
+What was also missing in particular from the DDN article was any discussion of the size of Ohio's 
+overall poplulation relative to the report abortion numbers. For example, the report increase
+might actually be a decrease if the change in population size is accounted for. I obtained 
+[[https://www.census.gov/data/datasets/2017/demo/popest/nation-total.html#par_textimage_401631162][numbers from the US Census]] and computed totals per 100,000 people.
+
+[[img/total_per_100k.png]]
+
+Plotted this way, it appears the Total number increase from 2016 to 2107 is only 0.3%, not the 1% 
+mentioned in the article. Looking at just the Ohio resident numbers, the result is even less
+exciting, showing almost no change.
+
+
+
