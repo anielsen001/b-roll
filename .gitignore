@@ -1,0 +1,7 @@
+# emacs related
+*~
+\#*\#
+
+# python related
+*.pyc
+
