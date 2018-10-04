@@ -3,13 +3,39 @@
 #+DATE: 4 October 2018
 #+EMAIL: @anielsen001
 
-https://webcache.googleusercontent.com/search?q=cache:VDDd1vTpl6sJ:https://education.ohio.gov/getattachment/Topics/Teaching/Educator-Conduct/Educator-Conduct-Data/State-Board-Annual-Report-2016.pdf.aspx+&cd=3&hl=en&ct=clnk&gl=us
+An article appeared in the Dayton Daily News (DDN) about 
+teacher misconduct which included ths figure:
 
-saved to:
-'doc/2016 Educator Conduct Report.html'
+[[img/092318-educator-conduct_Web.jpg]]
 
-also see:
-doc/State-Board-Annual-Report-2017.pdf
-from:
+The information in the figure came from this Ohio Department of 
+Education [[http://education.ohio.gov/getattachment/Topics/Teaching/Educator-Conduct/Educator-Conduct-Data/State-Board-Annual-Report-2017.pdf.aspx?lang=en-US][report]]. (The report shows a similar figure on pages 13.)
 
-http://education.ohio.gov/getattachment/Topics/Teaching/Educator-Conduct/Educator-Conduct-Data/State-Board-Annual-Report-2017.pdf.aspx?lang=en-US
+A quick examination of the chart reveals that the numbers do not 
+appear to add up. I.e. the total number of cases does not equal
+the number of cases resulting in discipline or no discipline.
+At first glance this appears to be a significant issue. I made
+my own version of the plot, adding a sum that represents the 
+"Discipline" + "No Discipline" numbers.
+
+[[img/comparison.png]]
+
+Reading through the article, one finds that the number of cases
+resulting in a decision are not necessarily the same cases
+that were opened that year because sometimes cases take a while
+to resolve.
+
+However, the most important fact to note from the OH DOE report
+is that 77% of these cases come from people applying for a 
+teaching license, not people who are actually teachers since
+the department investigates people applying for teaching credentials
+as well as current teachers referred to for misconduct. It's also
+important to note that the number of applicants increased and if 
+you normalize the number of cases opened by the number of applications
+you get a very different picture.
+
+[[img/cases_per_app.png]]
+
+which looks like the number of cases being investigated is driven
+more by the increasing number of applicants, not some broader
+problem with teachers. 
