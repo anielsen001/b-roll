@@ -1,0 +1,15 @@
+#+TITLE: Ohio Education Conduct
+#+AUTHOR: Aaron Nielsen
+#+DATE: 4 October 2018
+#+EMAIL: @anielsen001
+
+https://webcache.googleusercontent.com/search?q=cache:VDDd1vTpl6sJ:https://education.ohio.gov/getattachment/Topics/Teaching/Educator-Conduct/Educator-Conduct-Data/State-Board-Annual-Report-2016.pdf.aspx+&cd=3&hl=en&ct=clnk&gl=us
+
+saved to:
+'doc/2016 Educator Conduct Report.html'
+
+also see:
+doc/State-Board-Annual-Report-2017.pdf
+from:
+
+http://education.ohio.gov/getattachment/Topics/Teaching/Educator-Conduct/Educator-Conduct-Data/State-Board-Annual-Report-2017.pdf.aspx?lang=en-US
