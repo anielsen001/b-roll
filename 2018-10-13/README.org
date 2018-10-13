@@ -1,0 +1,22 @@
+#+TITLE: Diversity Calculator
+#+AUTHOR: Aaron Nielsen
+#+EMAIL: @anielsen001
+#+DATE: 2018-10-13
+
+You can find a [[http://aanandprasad.com/diversity-calculator/?groupName=women&numSpeakers=10&populationPercentage=50][Diversity Calculator]] here. This calculator is very 
+helpful. From the link:
+#+BEGIN_QUOTE
+This calculator was inspired by comments from Dave Wilkinson and Paul Battley, who modelled the probability distribution for male/female speaker balance based on a Poisson distribution and found that the likelihood of an unbiased selection process yielding a line-up with no women at all is far lower than intuition might suggest, and—depending on the numbers you plug in—can often be far lower than the likelihood of their over-representation. That is to say: in an unbiased selection, you’re significantly more likely to see more than the expected number of women than none at all.
+#+END_QUOTE
+
+This calculator relies on computing the Poisson distribution
+using factorials.
+\begin{equation}
+\frac{n!}{i! (n-i)!} p^i * (1-p)^{n-i}
+\end{equation}
+where $n$ is the number of people selected, $i$ is the number of an 
+underrepresented group 
+selected and $p$ is the fraction of people in the underrepresented
+group.
+
+The issue with this  
