@@ -19,4 +19,38 @@ underrepresented group
 selected and $p$ is the fraction of people in the underrepresented
 group.
 
-The issue with this  
+The issue with this is that the factorial function grows really fast
+and if you compute it directly, then your will quickly exceed the maximum
+value you can represent on your computer. There is a way around this, by
+computing using the log probability and then converting back to 
+probability after the computations are done. This will also allow you 
+to use approximations for $$log(n!)$$ so that you don't have to compute
+the factorial directly. 
+
+I was taught Stirling's approximation in school:
+\begin{equation}
+\ln n! = n \ln n - n . 
+\end{equation}
+However, this approximation breaks down for small $n$. It turns out 
+that there is another approximation by Ramanujan: 
+\begin{equation}
+\ln n! = n \ln n - n + \frac{\ln (n (1+4n(1+2n))) /}{6} + \frac{\ln\pi}{2}
+\end{equation}
+that is more accurate. 
+
+I wrote a little python code to explore it
+#+begin_src  python
+function logfact(n) {
+    if (n==0) return 1.0;
+
+    // return the Ramanujan approximation for log(n!)
+    var out = 0;
+    out = n * Math.log( n ) - n +
+	Math.log( n * (1 + 4*n*(1+2*n)))/6.0 +
+	Math.log( Math.PI ) /2.0;
+    return out;   
+}
+#+end_src
+
+The python math module has a built in
+factorial function that can be used for comparison.
