@@ -38,8 +38,36 @@ that there is another approximation by Ramanujan:
 \end{equation}
 that is more accurate. 
 
-I wrote a little python code to explore it
-#+begin_src  python
+
+
+The python math module has a built in
+factorial function that can be used for comparison.
+
+I wrote a python function to compare various approximations to 
+$\ln n!$
+#+begin_src python
+def logfactorial( n, method = 'stirling' ):
+
+    if n==0:
+        # log( 0! ) = 1
+        return 1.0
+
+    if 'stirling'==method:
+        res = (n + 0.5) * np.log( n ) + 0.5 * np.log( 2.0 * np.pi )
+    elif 'ramanujan'==method:
+        res = (n * np.log( n ) ) - n +\
+              np.log( n * (1 + 4*n*(1+2*n)))/6.0 + \
+              np.log( np.pi)/2.0
+    elif 'small'==method:
+        res = (n + 1)*np.log(n) - n
+
+    #n * log( n ) - n + 1
+    return res 
+
+#+end_src
+
+This is the javascript version of the code
+#+begin_src  javascript
 function logfact(n) {
     if (n==0) return 1.0;
 
@@ -51,6 +79,3 @@ function logfact(n) {
     return out;   
 }
 #+end_src
-
-The python math module has a built in
-factorial function that can be used for comparison.
